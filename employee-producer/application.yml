@@ -2,7 +2,7 @@ spring:
   application:
     name: employee-producer
 server:
-  port: 0
+  port: 9999
 eureka:
   client:
     serviceURL:
