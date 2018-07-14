@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: employee-producer
+server:
+  port: 0
+eureka:
+  client:
+    serviceURL:
+      defaultZone: ${EUREKA_URI:http://localhost:8761:eureka}
+  instance:
+    preferIPAddress: true
