@@ -18,4 +18,5 @@ zuul:
   routes:
     e-p:
       path: /e-p/**
-      url: http://localhost:8762/employee-producer/
+      #url: http://localhost:8762/employee-producer/
+      serviceId: EMPLOYEE-PRODUCER #Id from Eureka to avaoid hardcoding
