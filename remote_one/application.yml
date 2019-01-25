@@ -1,3 +1,5 @@
+server:
+  port: 20045
 endpoint:
   url:
     one: endPointOne
